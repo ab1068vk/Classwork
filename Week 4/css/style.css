@@ -22,3 +22,13 @@ main > h1{
 footer h3:nth-child(2){/*work with even&odd as well*/
     background-color: blueviolet;
 }
+
+/*generic sibling combinator*/
+/*using+ insted of ~ is only going to target immdiate h2 that follows*/
+h1~h2{
+    background-color: rgb(212, 137, 39);
+}
+
+a[title="test1"]{
+    background-color: yellow;
+}
