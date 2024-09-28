@@ -13,10 +13,14 @@ nav{
 
 main{
     background-color: brown;
+    width: 70%;
+    float: left;
 }
 
 aside{
     background-color: aquamarine;
+    width: 30%;
+    float: left;
 }
 
 footer{
