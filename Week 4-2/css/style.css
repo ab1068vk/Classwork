@@ -1,3 +1,6 @@
+body{
+    height: 1000px;
+}
 h1{
     margin: 0px;
     padding: 10px;
@@ -5,20 +8,37 @@ h1{
 
 h1:nth-child(1){
     background-color: aquamarine;
+    position: static;
 }
 
 h1:nth-child(2){
     background-color: rgb(9, 130, 216);
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+    /*z-index: 67;*/
 }
 
 h1:nth-child(3){
     background-color: rgb(104, 96, 212);
+    /*position: relative;*/
+    /*z-index: 99;*/
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 100px;
 }
 
 h1:nth-child(4){
     background-color: rgb(214, 255, 11);
+    position: absolute;
+    right: 0px;
+    left:100px;
+    top:300px;
 }
 
 h1:nth-child(5){
     background-color: rgb(16, 133, 94);
+    position: sticky;
+    top:20px;
 }
