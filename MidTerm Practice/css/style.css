@@ -1,0 +1,107 @@
+body{
+    width: 1200px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+body > div{
+    padding: 15px;
+    background-color: black;
+}
+header div img{
+    width:100%;
+}
+
+header div{
+    padding: 20px 5px;
+    float:left;
+    width:140px;
+}
+nav{
+    float: left;
+    width: 820px;
+    padding:67px 0px 0px 20px;
+
+}
+header section{
+    clear: both;
+}
+nav a{
+    margin: 15px;
+}
+
+main figure{
+    margin: 0px;
+    padding:0px;
+    position: relative;
+}
+main figure img{
+    width:100%;
+}
+
+main figure div{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right:0px;
+    left:0px;
+    color:aqua;
+    padding: 100px;
+    background-image: linear-gradient(90deg, rgba(1399,5,5,1), rgba(255,0,0,0.005));
+}
+
+#left{
+    width:150px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    float:left;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#left ul li{
+    list-style-type: none;
+
+}
+
+
+
+#Right{
+    width:1000px;
+    float:left;
+}
+
+#Right div{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 20px 0px 0px;
+    margin-left: 10px;
+    width: 460px;
+    float:left;
+    text-align: center;
+}
+
+#Right div a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+    padding: 10px 0px;
+    width:100%;
+}
+
+footer{
+    clear:both;
+}
+
+
+footer p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
