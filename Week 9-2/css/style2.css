@@ -1,0 +1,40 @@
+main h1{
+    border: 1px solid red;
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+}
+
+main{
+    display: grid;
+    /*30% 50% 20%*/
+    grid-template-columns: repeat(6,1fr);
+    grid-template-areas: 
+    "hd hd hd hd hd hd"
+    "n1 n2 n2 n3 n3 n3"
+    "mn mn mn as as as"
+    "mn mn mn ft ft ft";
+    
+}
+
+main h1:nth-child(1){
+    grid-area: hd;
+}
+main h1:nth-child(2){
+    grid-area: n1;
+}
+main h1:nth-child(3){
+    grid-area: n2;
+}
+main h1:nth-child(4){
+    grid-area: n3;
+}
+main h1:nth-child(5){
+    grid-area: mn;
+}
+main h1:nth-child(6){
+    grid-area: as;
+}
+main h1:nth-child(7){
+    grid-area: ft;
+}
