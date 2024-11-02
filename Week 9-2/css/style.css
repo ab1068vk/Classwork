@@ -1,0 +1,12 @@
+main h1{
+    border: 1px solid red;
+    margin: 0px;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    /*30% 50% 20%*/
+    grid-template-columns: 1fr 2fr 5fr;
+    gap:20px;
+}
