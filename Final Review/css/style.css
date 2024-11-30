@@ -40,6 +40,8 @@ nav div div{
     border: 1px solid black;
     width:150px;
     display: none;
+    z-index: 1;
+    background-color: white;
 }
 
 nav div div a{
@@ -81,58 +83,56 @@ main figure div{
     color:aqua;
     padding: 100px;
     background-image: linear-gradient(90deg, rgba(200,0,0,1), rgba(0,0,0,0));
-}
-
-
-
-
-
-
-#left{
-    width:150px;
-    background-color: aquamarine;
-    border-radius: 10px;
-    float:left;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
-#left ul li{
-    list-style-type: none;
-
-}
-
-
-
-#Right{
-    width:1000px;
-    float:left;
-}
-
-#Right div{
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 20px 20px 0px 0px;
-    margin-left: 10px;
-    width: 460px;
-    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
-#Right div a{
-    text-decoration: none;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    font-size: large;
-    display: inline-block;
-    padding: 10px 0px;
-    width:100%;
+
+
+
+
+
+section{
+    display: flex;
+    margin: 20px 0px;
 }
 
-footer{
-    clear:both;
+section div{
+    flex: 0 0 240px;
 }
+
+section aside{
+    flex:0 0 920px;
+}
+
+section div ul{
+    background-color: aquamarine;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+section div ul li{
+    padding: 15px;
+}
+
+section aside{
+    margin: 0px 20px;
+}
+
+.card{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card img{
+    width: 100%;
+}
+
 
 
 footer p{
