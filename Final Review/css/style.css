@@ -111,6 +111,8 @@ section aside{
     flex:0 0 920px;
 }
 
+
+
 section div ul{
     background-color: aquamarine;
     border-radius: 5px;
@@ -123,14 +125,27 @@ section div ul li{
     padding: 15px;
 }
 
+
+
+
 section aside{
     margin: 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+}
+
+section aside div a{
+    background-color: aqua;
+    display: inline-block;
 }
 
 .card{
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
+    height: 390px;
+    position: relative;
 }
 
 .card img{
@@ -146,4 +161,20 @@ footer p{
     padding: 10px;
     border-radius: 10px;
 
+}
+
+.card a{
+    display: block;
+    position: absolute;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+    bottom:1px;
+    left:0px;
+    right:0px;
+    display: none;
+}
+
+.card:hover a{
+    display: block;
 }
