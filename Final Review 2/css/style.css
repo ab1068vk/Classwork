@@ -1,0 +1,136 @@
+body{
+    width: 1100px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header figure img{
+    width: 100%;
+}
+
+header figure{
+    width:100px;
+}
+
+header{
+    display: flex;
+    margin: 10px 5px;
+    background-color: black;
+}
+
+header div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div h1{
+    color: white;
+}
+
+nav{
+    padding:20px;
+    background-color: bisque;
+    text-align: right;
+}
+
+nav a{
+    display: inline-block;
+    width:80px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+body > div{
+    position: relative;
+}
+
+body > div img{
+    width: 100%;
+}
+body > div h1{
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left:0px;
+    right:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(150,24,56,0.5);
+}
+
+
+
+
+section{
+    display: flex;
+    margin: 10px 0px;
+}
+
+section main{
+    flex:0 0 715px;
+}
+
+section aside{
+    flex:0 0 385px;
+}
+
+.card img{
+    width:100%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card{
+    position: relative;
+}
+
+.card div{
+    position: absolute;
+    
+    top: 0px;
+    bottom: 0px;
+    left:0px;
+    right:0px;
+    background-color: rgba(52, 47, 48, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    display: none;
+}
+
+.card div a{
+    display: inline-block;
+    width:80px;
+    text-align: center;
+    padding:10px;
+    color:white;
+    background-color: black;
+}
+
+.card:hover div{
+    display: flex;
+}
+
+
+
+section aside table{
+    width:100%
+}
+
+section aside table tbody tr:nth-child(odd){
+    background-color: black;
+    color: white;
+}
