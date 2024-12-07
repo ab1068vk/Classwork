@@ -29,6 +29,9 @@ header div h1{
     color: white;
 }
 
+
+
+
 nav{
     padding:20px;
     background-color: bisque;
@@ -45,6 +48,9 @@ nav a{
     padding: 5px;
     text-decoration: none;
 }
+
+
+
 
 body > div{
     position: relative;
@@ -65,6 +71,7 @@ body > div h1{
     align-items: center;
     background-color: rgba(150,24,56,0.5);
 }
+
 
 
 
@@ -126,11 +133,56 @@ main{
 
 
 
+
+
 section aside table{
     width:100%
 }
 
 section aside table tbody tr:nth-child(odd){
     background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+footer form{
+    width:600px;
+    margin: auto;
+}
+
+div label{
+    display: inline-block;
+    width:100px;
+}
+
+div input{
+    width:450px;
+}
+
+div input[type="radio"]{
+    width: 10px;
+}
+#last{
+    display: flex;
+}
+
+#last label{
+    flex:0 0 100px;
+}
+
+#last div{
+    flex:0 0 450px;
+    margin:0px;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    width: 50px;
     color: white;
 }
